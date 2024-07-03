@@ -1,1 +1,1 @@
-sssdprint('hello world')
+print('hello world')
