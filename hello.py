@@ -1,1 +1,1 @@
-wsdsprint('helwwlo world')
+swsdsprint('helwwlo world')
