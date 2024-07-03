@@ -1,1 +1,1 @@
-dprint('hello world')
+sdprint('hello world')
