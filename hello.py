@@ -1,1 +1,1 @@
-sprint('helwwlo world')
+dsprint('helwwlo world')
