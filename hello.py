@@ -1,1 +1,1 @@
-print('hello world')
+sprint('hello world')
