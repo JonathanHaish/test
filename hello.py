@@ -1,1 +1,1 @@
-swsdsprint('helwwlo world')
+print('helwwlo world')
