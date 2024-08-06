@@ -12,7 +12,7 @@ app.get("/",function(req,res){
 	res.sendFile("./myapp/public/index.html")
 });
 
-//.//
+//
 // Setup multer for file storage
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
