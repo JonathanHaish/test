@@ -12,14 +12,14 @@ const port = 3000;
 app.use(express.static('public'));
 
 app.get("/",function(req,res){
-	res.sendFile("/home/ubuntu/myapp/public/index.html")
+	res.sendFile("/home/ec2-user/myapp/public/index.html")
 });
 
 //
 // Setup multer for file storage
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, '/home/ubuntu/myapp/uploads/')
+        cb(null, '/home/ec2-user/myapp/uploads/')
     },
     filename: function (req, file, cb) {
         cb(null, file.originalname)
